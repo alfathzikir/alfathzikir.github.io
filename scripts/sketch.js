@@ -7,6 +7,9 @@ function setup() {
     createCanvas(720, 400);
     background(200);
   
+    button = new Clickable();
+    button.locate(20,20);
+
     // Set colors
     fill(204, 101, 192, 127);
     stroke(127, 63, 120);
@@ -27,3 +30,6 @@ function setup() {
     }
   }
   
+function draw(){
+    button.draw();
+}
