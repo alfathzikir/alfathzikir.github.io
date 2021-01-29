@@ -4,9 +4,6 @@ var click2;
 var click3;
 var clickImg;
 
-function preload(){
-  clickImg = loadImage('./logo.png');
-}
 function setup() {
   createCanvas(400, 400);
 
