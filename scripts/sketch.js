@@ -7,8 +7,12 @@ function setup() {
     createCanvas(720, 400);
     background(200);
   
-    button = new Clickable();
-    button.locate(20,20);
+    myButton = new Clickable();
+    myButton.locate(20,20);
+    myButton.onPress = function(){  //When myButton is pressed
+        this.color = "#AAAAFF";       //Change button color
+        alert("Yay!");                //Show an alert message
+    }
 
     // Set colors
     fill(204, 101, 192, 127);
@@ -31,5 +35,5 @@ function setup() {
   }
   
 function draw(){
-    button.draw();
+    myButton.draw();
 }
