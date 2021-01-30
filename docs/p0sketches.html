@@ -1,183 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/carousel.css">
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
-        <!-- Page Details -->
-        <title>Project 0 - The Watermelon War</title>
-    </head>
-    <body style="background-color: rgb(150, 150, 150);">
-        
+<head>
+  <title>sketches</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  </style>
+</head>
+
+<body style="background-color: rgb(150, 150, 150);">
+
+        <!-- Navbar -->
         <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <a class="navbar-brand" href="index.html">Alfath Zikir</a> <a class="navbar-brand">|</a> <a class="navbar-brand" href="p0.html">Exploding Watermelon</a>
+                <a class="navbar-brand" href="index.html">Alfath Zikir</a> <a class="navbar-brand">|</a> <a class="navbar-brand" href="p0.html">The Watermelon War</a>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                 </ul>
             </div>
         </nav>
+    
         <div class="container" align="center" style="margin-top: 8vh">
-            <h2 class="featurette-heading" style="color: #282828">WATERMELON WAR</h2>
-            <h5>SKETCHES</h5>
+            <h2 class="featurette-heading" style="color: #282828">The Watermelon War</h2>
+            <h5>Sketches</h5>
             <br />
         </div>
+    
+        <div class="container">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+                <li data-target="#myCarousel" data-slide-to="10"></li>
+                <li data-target="#myCarousel" data-slide-to="11"></li>
+                <li data-target="#myCarousel" data-slide-to="12"></li>
+                <li data-target="#myCarousel" data-slide-to="13"></li>
+                <li data-target="#myCarousel" data-slide-to="14"></li>
+                <li data-target="#myCarousel" data-slide-to="15"></li>
+                <li data-target="#myCarousel" data-slide-to="16"></li>
+                <li data-target="#myCarousel" data-slide-to="17"></li>
+                <li data-target="#myCarousel" data-slide-to="18"></li>
+                <li data-target="#myCarousel" data-slide-to="19"></li>
+                <li data-target="#myCarousel" data-slide-to="20"></li>
+                <li data-target="#myCarousel" data-slide-to="21"></li>
+                <li data-target="#myCarousel" data-slide-to="22"></li>
 
-        <hr class="featurette-divider"/>
-
-        <div class="container" id="profile">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                    <li data-target="#carousel" data-slide-to="3"></li>
-                    <li data-target="#carousel" data-slide-to="4"></li>
-                    <li data-target="#carousel" data-slide-to="5"></li>
-                    <li data-target="#carousel" data-slide-to="6"></li>
-                    <li data-target="#carousel" data-slide-to="7"></li>
-                    <li data-target="#carousel" data-slide-to="8"></li>
-                    <li data-target="#carousel" data-slide-to="9"></li>
-                    <li data-target="#carousel" data-slide-to="10"></li>
-                    <li data-target="#carousel" data-slide-to="11"></li>
-    
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active" style="position: relative; background: url(../images/p0/sketches/interview.png); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Interview with Client</h1>
-                                <p class="lead">Notes jotted down during the interview with Austin. Common themes have been circled. Coming up with ideas that incorporated a sandbox environment and self-directed actions were difficult when considering the limiting factor of having a single button be the only source of interaction.</p>
-                            </div>
-                        </div>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+          
+                <div class="item active">
+                  <img src="../images/p0/sketches/interview.png" alt="Chania" width="460" height="345">
+                  <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                    <h1 class="featurette-heading" style="color: black">Interview with Client</h1>
+                    <p class="lead" style="color: black;">My interview with Bader, noted down what delights him during COVID-19</p>
                     </div>
-    
-                    <div class="carousel-item" style="position: relative;background: url(../images/p0/sketches/ideas.png); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Idea: Emotion Button</h1>
-                                <p class="lead">A wearable that displays the user's personal depiction of the current self</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/idea-random-tele.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Idea: Randomized Telescope</h1>
-                                <p class="lead">Pressing the button whirls the telescope around, giving the user a different view of the sky each time</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/idea-record.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Idea: One-Sound-Recorder</h1>
-                                <p class="lead">Press the button to record one sound. A random song is generated using that sound</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/idea-warp.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Idea: Warp</h1>
-                                <p class="lead">Button warps player to different locations in space</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative;background: url(images/a0/sketches/6_ideas.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Six Gamey Ideas</h1>
-                                <p class="lead">1. Rhythm game: taps, slides, holds, and releases</p>
-                                <p class="lead">2. Contextual button: changes functionality based on location</p>
-                                <p class="lead">3. Puzzle game: place and use the button in the right place and order to advance</p>
-                                <p class="lead">4. Sidescrolling shooter: shoot things</p>
-                                <p class="lead">5. Kinetic visual novel: select a scene and advance</p>
-                                <p class="lead">6. Timing game: hold button to fully charge, see how fly you can send rocket</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/tower-defense-game.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Idea: Tower Defense Game</h1>
-                                <p class="lead">Place turrets on planets to defend against incoming enemies</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/idea-quotes.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Detailed Idea: NightSky</h1>
-                                <p class="lead">Use stars to generate quotes about the "self"</p>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/teatime-idea.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">Detailed Idea: Teatime</h1>
-                                <p class="lead">Music maker + tea</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/teatime-maths.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">teatime: some math</h1>
-                                <p class="lead">Trig shenanigans</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/teatime-prototype.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">teatime Paper Prototype</h1>
-                                <p class="lead">feat. sticky notes</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="carousel-item" style="position: relative; background: url(images/a0/sketches/teatime-sounds.jpg); background-repeat: no-repeat; background-position: center; background-size: contain">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left"  style="position:absolute; bottom:0">
-                                <h1 class="featurette-heading">teatime: Animation and Sounds</h1>
-                                <p class="lead">Harmony is hard.</p>
-                            </div>
-                        </div>
-                    </div>
-    
-    
                 </div>
-    
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+          
+                <div class="item">
+                    <img src="../images/p0/sketches/ideas.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:black;">Ideas</h1>
+                      <p class="lead" style="color: black;">My different ides from the interview. Ideas: Creating something that can make him enjoy commuting more or creating something about stuff that he enjoys.</p>
+                      </div>
+                  </div>
+              
+                  <div class="item">
+                    <img src="../images/p0/sketches/A simple game v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:black;">A Simple Game: Version 1</h1>
+                      <p class="lead" style="color: black;">My first idea was to create something that he could open during his commute and make him enjoy it more.</p>
+                      </div>
+                  </div>
+          
+                  <div class="item">
+                    <img src="../images/p0/sketches/A simple game v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">A Simple Game: Version 2</h1>
+                      <p class="lead" style="color: black;">A second variation of my first idea was to incorporate something that he likes - The exploding watermelon.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/A simple pop up message with GIF and Song.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">A Simple Pop Up Message</h1>
+                      <p class="lead" style="color: black;">My second idea was just to create a button that when you click it will create a pop up GIF with a song playing.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Simple Spotify Playlist.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Spotify Playlist</h1>
+                      <p class="lead" style="color: black;">My third idea was to create a button that will play his music playlist. This way he could enjoy commuting more.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Work From Home v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Work From Home: Version 1</h1>
+                      <p class="lead" style="color: black;">My fourth Idea was to create an animation of someone working from home, once the button is clicked he will lose during his game.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Work From Home v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Work From Home: Version 2</h1>
+                      <p class="lead" style="color: black;">This is my second variation of Work from home, creating an animation of someone dreaming of commuting. The button will help him wake up from his nightmare</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Spending time with Fam.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Work From Home: Version 3</h1>
+                      <p class="lead" style="color: black;">This is my third variation of Work from home, creating an animation of someone spending time with his family and the button will start animating one of them winning.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/VR Headset v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">VR Headset: Version 1</h1>
+                      <p class="lead" style="color: black;">My fifth idea was to create something involving the item that gives him delight, his VR headset.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/VR Headset v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">VR Headset: Version 2</h1>
+                      <p class="lead" style="color: black;">Another variance of the VR headset Idea</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Finding the Button v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Finding the button: Version 1</h1>
+                      <p class="lead" style="color: black;">My sixth idea was to create something simple involving manipulation of the button.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Finding the Button v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Finding the button: Version 2</h1>
+                      <p class="lead" style="color: black;">My second variance of Finding the Button was to incorporate the exploding watermelon to the idea.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Exploding Watermelon v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Exploding Watermelon: Version 1</h1>
+                      <p class="lead" style="color: black;">My seventh idea was finally to create something involving something he was creating, the exploding watermelon cannon. I decided to first just create something about an exploding watermelon.</p>
+                      </div>
+                  </div>
+            
+                  <div class="item">
+                    <img src="../images/p0/sketches/Exploding Watermelon v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Exploding Watermelon: Version 2</h1>
+                      <p class="lead" style="color: black;">A second variance of my exploding watermelon idea was to involve the hand cannon.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Exploding Watermelon v4.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Exploding Watermelon: Version 3</h1>
+                      <p class="lead" style="color: black;">Another variance of the exploding watermelon was trying to add colors to the explosion + watermelon.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Rotating Watermelons v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Rotating Watermelon: Version 1</h1>
+                      <p class="lead" style="color: black;">My eight idea was a simple rotating watermelon, you can add watermelons by clicking the button.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Rotating Watermelons v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Rotating Watermelon: Version 2</h1>
+                      <p class="lead" style="color: black;">My second variance of the rotating watermelon is adding the explosion when clicking the button. It will add more watermelon and once you have more than 5, it will create an explosion.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Rotating Watermelons v3.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Rotating Watermelon: Version 3</h1>
+                      <p class="lead" style="color: black;">My third variation of the rotating watermelon is adding a person juggling the watermelon.</p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Watermelon Collision.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Watermelon Collision</h1>
+                      <p class="lead" style="color: black;">My ninth idea was to create 2 watermelon colliding against each other.<p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Watermelon War v1.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Watermelon War: Version 1</h1>
+                      <p class="lead" style="color: black;">My tenth idea was to create a watermelon war.<p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Watermelon War v2.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Watermelon War: Version 2</h1>
+                      <p class="lead" style="color: black;">My second variance of the watermelon war is to use my other idea of using a hand cannon.<p>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="../images/p0/sketches/Watermelon War v3.png" alt="Chania" width="460" height="345">
+                    <div class="carousel-caption d-none d-md-block text-left" style="position:absolute; bottom:0; background: rgba(150,150,150, 0.6);  ">
+                      <h1 class="featurette-heading" style="color:Black;">Watermelon War: Version 3</h1>
+                      <p class="lead" style="color: black;">My third variance of the watermelon war is just creating a button that makes the person throw the watermelon to the other guy that will explode on his head. Also adds sound of explosion on impact.<p>
+                      </div>
+                  </div>
+
+
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-    
-            </div>
-    
-    </body>
+          </div>
+
+          <br><br>
+
+</body>
 
 </html>
